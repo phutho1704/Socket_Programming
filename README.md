@@ -13,7 +13,7 @@ Nhìn theo cấu trúc mã nguồn, đây là một project học thuật hoặc
 ## Cấu Trúc Thư Mục
 
 ```text
-23120123_23120169_23120182
+Project
 ├─ source/
 │  ├─ socket_client/
 │  │  ├─ main.cpp
@@ -86,12 +86,8 @@ Các file project hiện tại cho thấy chương trình được build với:
 - Visual Studio 2022
 - Windows SDK 10
 - MSVC toolset `v143`
-- `libcurl` được link trong project client
-- `OpenCV` được link trong project server
-
-## Lưu Ý Đạo Đức Và Pháp Lý
-
-Repository này chứa code có thể tương tác với ứng dụng cục bộ, file hệ thống, sự kiện bàn phím, nội dung màn hình, webcam và thao tác nguồn điện của máy. Chỉ nên dùng để học tập, phân tích, hoặc kiểm thử trong môi trường mà bạn sở hữu hoặc được cấp quyền quản trị hợp pháp.
+- `libcurl` được link trong client
+- `OpenCV` được link trong server
 
 ## Tóm Tắt
 
